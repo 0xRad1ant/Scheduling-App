@@ -16,9 +16,9 @@ const OrgAccount = require('./models/org');
 const isAuth = require('./middleware/is-auth');
 
 // set up the server
-const MONGODB_URL = 'mongodb://localhost:27017/scheduling-app'
+const MONGODB_URL = "mongodb+srv://shakti123:1234%24%25567@schedule-app.nvfoal6.mongodb.net/test1234"
 
-const PORT = process.env.PORT || 5050;
+const PORT = process.env.PORT || 3001;
 
 const options = {
   useNewUrlParser: true,
